@@ -1,0 +1,12 @@
+NAME="m17n-contrib"
+VERSION=1.1.14
+RELEASE=1
+CATEGORY="Text"
+SUMMARY="Multilingualization library (additional data)"
+DESCRIPTION="The m17n library represents multilingual text as an object named
+M-text.  M-text is a string with attributes called text properties, and
+designed to substitute for string in C. Text properties carry any information
+required to input, display and edit the text."
+HOMEPAGE="http://www.nongnu.org/m17n/"
+SRC_URI="mirror://savannah/m17n/${P}.tar.gz"
+PATCH_URI="1.1.14-vpath.patch"

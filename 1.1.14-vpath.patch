@@ -1,0 +1,14 @@
+--- origsrc/m17n-contrib-1.1.14/configure.ac	2012-04-22 19:25:41.000000000 -0500
++++ src/m17n-contrib-1.1.14/configure.ac	2012-12-27 19:14:33.781355300 -0600
+@@ -43,9 +43,9 @@ else
+ fi
+ AC_SUBST(M17NDIR)
+ 
+-INPUT_METHOD=`echo im/*.mim`
++INPUT_METHOD=`echo $srcdir/im/*.mim`
+ AC_SUBST(INPUT_METHOD)
+-ICONS=`echo im/*.png`
++ICONS=`echo $srcdir/im/*.png`
+ AC_SUBST(ICONS)
+ 
+ AC_CONFIG_FILES([Makefile po/Makefile.in])
